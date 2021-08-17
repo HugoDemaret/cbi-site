@@ -1,0 +1,33 @@
+version: '3'
+services:
+      cbi-website:
+            container_name: cbi-website
+            build:
+                  context: .
+                  dockerfile: Dockerfile
+            restart: unless-stopped
+            depends_on:
+                  - cbi-db
+            networks:
+                  mysql-network:
+            volumes:
+                  - ./sources:/var/www/html
+      cbi-db:
+            container_name: mysql_server-cbi
+            image: mysql:latest
+            networks:
+                  mysql-network:
+            command: --default-authentication-plugin=mysql_native_password
+            volumes:
+                  - ./database:/var/lib/mysql
+            restart: always
+            environment:
+                  MYSQL_ROOT_PASSWORD: root
+                  MYSQL_DATABASE: database
+                  MYSQL_USER: user
+                  MYSQL_PASSWORD: password
+            ports:
+                  - '3306:3306'
+networks:
+  mysql-network:
+    driver: bridge
