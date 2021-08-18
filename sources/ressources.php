@@ -44,7 +44,7 @@ $resultOther = $db->query('SELECT * FROM ressources WHERE uri_type = "other" ');
                 <!--Ressources tutoriels-->
                 <div id="tutoriel" class="col">
                 <h2>Tutoriels</h2>
-                <p class="ressources">Tutoriels, explications et installation</p><br/>
+                <p class="ressources">Tutoriels, explications et installations</p><br/>
                 <?php while ($ressourceTuto = $resultTuto->fetch()) : ?>
                         <a class="link" href="<?echo $ressourceTuto["uri"]; ?>"><?php echo $ressourceTuto["txt"]; ?><br/></a>
                 <?php endwhile ?>
