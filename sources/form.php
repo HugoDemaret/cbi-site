@@ -26,5 +26,8 @@ $resultForm = $db->query('SELECT * FROM ressources WHERE uri_type = "formulaire"
                 <a class="link" href="<?echo $ressourceForm["uri"]; ?>"><?php echo $ressourceForm["txt"]; ?><br/></a>
         <?php endwhile ?>
     </div>
+    <div id="credentials">
+            <div id="cred-name"><p>Site codé et administré par Hugo Demaret</p></div><div id="date"><p>2021</p></div>
+        </div>
     </body>
 </html>
