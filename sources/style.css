@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.link-page {
+    color: rgb(0, 143, 216);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.page {
+    text-align: center;
+}
+.ressources {
+    color: rgb(200, 200, 200);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+    color: rgb(0, 143, 216);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.information {
+    color: rgb(200, 200, 200);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: rgb(200, 200, 200);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: rgb(200, 200, 200);
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(74, 82, 104);
+}
+
+#wrapper {
+    width: 75%;
+    height: 50%;
+    background: rgb(49, 54, 68);
+    margin: 0 auto;
+    border-radius: 250px;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+}

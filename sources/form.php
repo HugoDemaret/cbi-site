@@ -6,18 +6,25 @@ $resultForm = $db->query('SELECT * FROM ressources WHERE uri_type = "formulaire"
 ?>
 <html>
     <head>
-        <title>Questionnaires</title>
+        <title>Questionnaires CBI</title>
         <meta chartset="UTF-8">
     </head>
+    <style>
+            @import "style.css";
+    </style>
     <body>
         <h1>Questionnaires tutorat CBI</h1>
-        <a class="page" href="index.php">Index</a>
-        <a class="page" href="ressources.php">Ressources</a>
-        <!--Ressources questionnaires et formulaires-->
+        <div class="page">
+        <a class="link-page" href="index.php">Index</a>
+        <a class="link-page" href="ressources.php">Ressources</a>
+    </div>
+    <!--Ressources questionnaires et formulaires-->
+    <div id="wrapper" style="text-align: center;">
         <h2>Questionnaires</h2>
         <p class="ressources">Liens vers les questionnaires</p>
         <?php while ($ressourceForm = $resultForm->fetch()) : ?>
-                <a class="universite" href="<?echo $ressourceForm["uri"]; ?>"><?php echo $ressourceForm["txt"]; ?><br/></a>
+                <a class="link" href="<?echo $ressourceForm["uri"]; ?>"><?php echo $ressourceForm["txt"]; ?><br/></a>
         <?php endwhile ?>
+    </div>
     </body>
 </html>
