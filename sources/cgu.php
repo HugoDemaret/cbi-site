@@ -22,11 +22,14 @@ include 'config.php';
         <div id="information">
         <p>
             En vous connectant sur ce site, vous acceptez les conditions suivantes :<br/><br/><br/>
-            Les IP peuvent être collectées à des fins statistiques et sécuritaire. Les bases de données sont chiffrées, <br/>
+            Les IP peuvent être collectées à des fins statistiques et sécuritaire*. Les bases de données sont chiffrées, <br/>
             aucune information personnelle ne saurait vous être demandée, mis à part le mail dans les questionnaires.<br/>
-            En cas de problème de sécurité (faille par exemeple), veuillez me contacter. <br/><br/>
-            Toute exploitation de faille sans autorisation préalable de ma part verra votre IP bannie,<br/> ainsi qu'une plainte déposée.
-            Toute attaque de type DDoS (ou DoS) verra une plainte déposée.
+            Vous avez un droit de retrait total sur vos données (non applicable dans le cas de poursuites). <br/>
+            En cas de problème de sécurité (faille par exemple), veuillez me contacter. <br/><br/>
+            Toute exploitation de faille sans autorisation (écrite) préalable de ma part verra votre IP bannie,<br/> 
+            ainsi qu'une plainte déposée.<br/>
+            Toute attaque de type DDoS (ou DoS), visant à rendre le service inaccessible, verra une plainte déposée. <br/><br/>
+            <em>* : bloquage d'IP, IPTABLES et autres solutions permettant d'éviter les attaques.</em>
         </p>
     </div>
     <div id="credentials">
