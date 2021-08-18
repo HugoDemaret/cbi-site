@@ -19,10 +19,10 @@ $resultOther = $db->query('SELECT * FROM ressources WHERE uri_type = "other" ');
     <body>
         <h1>Ressources</h1>
         <div class="page">
-                <div id="index-link"><a class="link-page" href="index">Index</a></div>
-            <div id="ressource-link"><a class="link-page" href="ressources">Ressources</a></div>
-            <div id="form-link"><a class="link-page" href="form">Questionnaires</a></div>
-            <div id="cgu-link"><a class="link-page" href="cgu">CGU</a></div>
+                <div id="index-link"><a class="link-page" href="index.php">Index</a></div>
+                <div id="ressource-link"><a class="link-page" href="ressources.php">Ressources</a></div>
+                <div id="form-link"><a class="link-page" href="form.php">Questionnaires</a></div>
+                <div id="cgu-link"><a class="link-page" href="cgu.php">CGU</a></div>
         </div>
         <!--Ressources universitaires-->
         <div id="wrapper" class="container">
@@ -67,7 +67,7 @@ $resultOther = $db->query('SELECT * FROM ressources WHERE uri_type = "other" ');
                 </div>
         </div>
         <div id="credentials">
-                <div id="cred-name"><p>Site codé et administré par <a id="contact-page" href="contact">Hugo Demaret<a></p></div><div id="date"><p>2021</p></div>
+                <div id="cred-name"><p>Site codé et administré par <a id="contact-page" href="contact.php">Hugo Demaret<a></p></div><div id="date"><p>2021</p></div>
         </div>
     </body>
 </html>
