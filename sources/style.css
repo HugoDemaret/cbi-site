@@ -3,14 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
-.link-page {
-    color: rgb(0, 143, 216);
-    font-family: 'Open Sans', monospace;
-    text-decoration: none;
-}
-.page {
-    text-align: center;
-}
+
 .ressources {
     color: rgb(200, 200, 200);
     font-family: 'Open Sans', monospace;
@@ -27,12 +20,18 @@
     font-family: 'Open Sans', monospace;
     text-align: center;
     background: rgb(49, 54, 68);
+    font-size: 20px;
+    border-radius: 25px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25%;
 }
 
 h1 {
     color: rgb(200, 200, 200);
     text-align: center;
     font-family: 'Open Sans', monospace;
+    font-size: 40px;
 }
 
 h2 {
@@ -77,4 +76,52 @@ body {
     font-family: 'Source Code Pro', monospace;
     display: inline-block;
     margin-right: 50%;
+}
+
+#index-link {
+    display: inline-block;
+    text-align: center;
+}
+
+#ressource-link {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center,
+}
+
+#form-link {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10%;
+}
+
+#cgu-link {
+    display: inline-block;
+    text-align: center;
+}
+
+.page {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    background: rgb(49, 54, 68);
+    top: 0;
+    width: 50%;
+    margin-bottom: 18px;
+    border-radius: 25px;
+}
+
+.link-page {
+    color: rgb(0, 143, 216);
+    font-family: 'Open Sans', monospace;
+    text-decoration: none;
+}
+
+#contact {
+    font-family: 'Source Code Pro', monospace;
+}
+#contact-page {
+    color: rgb(0, 143, 216);
+    text-decoration: none;
 }

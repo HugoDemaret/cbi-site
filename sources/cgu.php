@@ -21,10 +21,13 @@ include 'config.php';
         </div>
         <div id="information">
         <p>
-            Ici, vous retrouverez les différentes ressources utiles en tutorat de CBI.<br>
-            Vous trouverez aussi le code sources des scripts et programmes montrés.<br>
-            Des liens vers des cours, des vidéos, et pleins de ressources en lignes.<br>
-            <em>Notez que beaucoup de ressources peuvent être en anglais : c'est la langue de l'informatique.</em>
+            <small>
+            Note : Les IP peuvent être collectées à des fins statistiques et sécuritaire. Les bases de données sont chiffrées, <br/>
+            aucune information personnelle ne saurait vous être demandée, mis à part le mail dans les questionnaires.<br/>
+            En cas de problème de sécurité (faille par exemeple), veuillez me contacter. 
+            Toute exploitation de faille sans autorisation préalable de ma part verra votre IP bannie, ainsi qu'une plainte déposée.
+            Toute attaque de type DDoS (ou DoS) verra une plainte déposée.
+            <small>
         </p>
     </div>
     <div id="credentials">
