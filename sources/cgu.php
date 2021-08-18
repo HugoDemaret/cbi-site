@@ -21,13 +21,12 @@ include 'config.php';
         </div>
         <div id="information">
         <p>
-            <small>
-            Note : Les IP peuvent être collectées à des fins statistiques et sécuritaire. Les bases de données sont chiffrées, <br/>
+            En vous connectant sur ce site, vous acceptez les conditions suivantes :<br/><br/><br/>
+            Les IP peuvent être collectées à des fins statistiques et sécuritaire. Les bases de données sont chiffrées, <br/>
             aucune information personnelle ne saurait vous être demandée, mis à part le mail dans les questionnaires.<br/>
-            En cas de problème de sécurité (faille par exemeple), veuillez me contacter. 
-            Toute exploitation de faille sans autorisation préalable de ma part verra votre IP bannie, ainsi qu'une plainte déposée.
+            En cas de problème de sécurité (faille par exemeple), veuillez me contacter. <br/><br/>
+            Toute exploitation de faille sans autorisation préalable de ma part verra votre IP bannie,<br/> ainsi qu'une plainte déposée.
             Toute attaque de type DDoS (ou DoS) verra une plainte déposée.
-            <small>
         </p>
     </div>
     <div id="credentials">
