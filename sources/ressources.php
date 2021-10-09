@@ -10,7 +10,7 @@ $resultOther = $db->query('SELECT * FROM ressources WHERE uri_type = "other" ');
 ?>
 <html>
     <head>
-        <title>Tutorat CBI</title>
+        <title>Lovelace</title>
         <meta chartset="UTF-8">
     </head>
     <style>
@@ -19,10 +19,11 @@ $resultOther = $db->query('SELECT * FROM ressources WHERE uri_type = "other" ');
     <body>
         <h1>Ressources</h1>
         <div class="page">
-                <div id="index-link"><a class="link-page" href="index">Index</a></div>
-                <div id="ressource-link"><a class="link-page" href="ressources">Ressources</a></div>
-                <div id="form-link"><a class="link-page" href="form">Questionnaires</a></div>
-                <div id="cgu-link"><a class="link-page" href="cgu">CGU</a></div>
+            <div id="index-link"><a class="link-page" href="index">Home</a></div>
+            <div id="ressource-link"><a class="link-page" href="ressources">Ressources</a></div>
+            <div id="form-link"><a class="link-page" href="form">Questionnaires</a></div>
+            <div id="form-link"><a class="link-page" href="defis">Défis</a></div> 
+            <div id="cgu-link"><a class="link-page" href="cgu">CGU</a></div>
         </div>
         <!--Ressources universitaires-->
         <div id="wrapper" class="container">

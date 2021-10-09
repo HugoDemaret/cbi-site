@@ -5,18 +5,19 @@ include 'config.php';
 ?>
 <html>
     <head>
-        <title>Tutorat CBI</title>
+        <title>Lovelace</title>
         <meta chartset="UTF-8">
     </head>
     <style>
             @import "style.css";
     </style>
     <body>
-        <h1>Index</h1>
+        <h1>Conditions Générales d'Utilisation</h1>
         <div class="page">
-            <div id="index-link"><a class="link-page" href="index">Index</a></div>
+            <div id="index-link"><a class="link-page" href="index">Home</a></div>
             <div id="ressource-link"><a class="link-page" href="ressources">Ressources</a></div>
             <div id="form-link"><a class="link-page" href="form">Questionnaires</a></div>
+            <div id="form-link"><a class="link-page" href="defis">Défis</a></div> 
             <div id="cgu-link"><a class="link-page" href="cgu">CGU</a></div>
         </div>
         <div id="information">
